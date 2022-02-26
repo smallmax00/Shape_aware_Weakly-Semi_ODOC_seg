@@ -15,14 +15,4 @@
 - run test.py
 
 
-# Citation
-If you find our work useful or our work gives you any insights, please cite:
-```
-@InProceedings{Meng_2022_Oval,
-    author    = {Meng, Yanda and Zhang, Hongrun and Gao, Dongxu and Zhao, Yitian and Yang, Xiaoyun and Qian, Xuesheng and Huang, Xiaowei and Zheng, Yalin},
-    title     = {Oval Shape-Aware Weakly/Semi-Supervised Optic Disc and Cup Segmentation with Regional/Marginal Consistency Regularisation},
-    booktitle = {},
-    year      = {2022},
-}
-
 ```
