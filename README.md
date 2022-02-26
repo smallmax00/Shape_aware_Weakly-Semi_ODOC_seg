@@ -1,1 +1,1 @@
-# Oval-Shape-Aware-Weakly-Semi-SupervisedOptic-Disc-and-Cup-Segmentation-withRegional-Marginal-Consist
+# Oval-Shape-Aware-Weakly-Semi-Supervised Optic-Disc-and-Cup-Segmentation
