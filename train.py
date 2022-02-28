@@ -46,7 +46,7 @@ parser.add_argument('--labeled_bs', type=int, default=28,
 parser.add_argument('--labeled_num', type=int, default=10,
                     help='labeled data')
 parser.add_argument('--dropout', type=float,
-                    default=0.1, help='dropout rate')
+                    default=0.3, help='dropout rate')
 # costs
 parser.add_argument('--consistency', type=float,
                     default=0.1, help='consistency')
