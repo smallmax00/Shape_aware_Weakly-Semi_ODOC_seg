@@ -39,7 +39,7 @@ parser.add_argument('--labeled_num', type=int, default=10,
                     help='labeled data')
 # costs
 parser.add_argument('--dropout', type=float,
-                    default=0.1, help='consistency')
+                    default=0.3, help='consistency')
 parser.add_argument('--consistency_rampup', type=float,
                     default=200.0, help='consistency_rampup')
 parser.add_argument('--viz', type=bool,
