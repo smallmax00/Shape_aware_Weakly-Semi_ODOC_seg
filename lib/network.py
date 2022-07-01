@@ -60,9 +60,9 @@ class Cal_vcdr(nn.Module):
         """
         Euler method 
         """
-        a1 = (torch.pow(b_cup, 2) + torch.sqrt((4 * self.pi * r_cup + b_cup**2) * torch.abs(4 * self.pi * r_cup - b_cup ** 2))) / 4 * pow(self.pi, 2)
+        a1 = (torch.pow(b_cup, 2) + torch.sqrt((4 * self.pi * r_cup + b_cup**2) * torch.abs(b_cup ** 2 - 4 * self.pi * r_cup))) / 4 * pow(self.pi, 2)
 
-        a2 = (torch.pow(b_disc, 2) + torch.sqrt((4 * self.pi * r_disc + b_disc**2) * torch.abs(4 * self.pi * r_disc - b_disc ** 2))) / 4 * pow(self.pi, 2)
+        a2 = (torch.pow(b_disc, 2) + torch.sqrt((4 * self.pi * r_disc + b_disc**2) * torch.abs(b_disc ** 2 - 4 * self.pi * r_disc))) / 4 * pow(self.pi, 2)
 
         est_vcdr = torch.sqrt((a1 + smooth) / (a2 + smooth))
 
